@@ -3,7 +3,7 @@ import { MovieContainer, CoverImage, MovieName, InfoColumn, MovieInfo } from './
 
 const MovieComponent = ({ movie, updateSelectedMovie }) => {
   const { Title, Year, imdbID, Type, Poster } = movie;
-
+  //console.log("movie" + movie);
   return (
     <MovieContainer
       onClick={() => {

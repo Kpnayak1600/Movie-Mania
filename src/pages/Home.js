@@ -5,19 +5,17 @@ import MovieInfoComponent from "../components/MovieInfoComponent";
 import { data as movies } from "../data";
 import {
   Container, Header, AppName, SearchBox, SearchIcon, SearchInput, MovieImage,
-  MovieListContainer, Placeholder
+  MovieListContainer
 } from './Home.styled';
 
 export const API_KEY = "a9118a3a";
 function Home() {
-  //Stores the user's search query.
-  const [searchQuery, updateSearchQuery] = useState("");
   //Stores the list of movies fetched from the API or a default list if no results are found.
   const [movieList, updateMovieList] = useState();
   //Stores the selected movie for displaying additional information.
   const [selectedMovie, updateSelectedMovie] = useState();
-  //The purpose of using timeoutId in this context is to manage the debounce behavior. When the user 
-  //types in the search input, you set a timeout to delay making the API call until the user has finished 
+  //The purpose of using timeoutId to avoid making unnecessary API requests and improve performance. When the  
+  //user types in the search input, you set a timeout to delay making the API call until the user has finished 
   //typing. If the user continues typing within that timeout, the previous timeout is cleared (to avoid 
   //making unnecessary API requests) and a new one is set. This ensures that the API call is only made after 
   //a brief pause in typing, reducing the number of requests and improving performance.
@@ -37,9 +35,10 @@ function Home() {
     updateSelectedMovie()
     //clearTimeout is a JavaScript function that allows you to cancel a timeout previously created with setTimeout()
     clearTimeout(timeoutId);
-    //Updates the searchQuery state with the input value.
-    updateSearchQuery(e.target.value);
-    //Sets a new timeout to call the fetchData function after a delay, effectively debouncing the input.
+    //The purpose of this code is to introduce a small delay (100 milliseconds) between user input events 
+    //in the search input field. This delay can help in scenarios like autocomplete or search suggestions, 
+    //where you want to avoid making API requests for every single keystroke and instead wait briefly for 
+    //the user to finish typing before initiating the request.
     const timeout = setTimeout(() => fetchData(e.target.value), 100);
     updateTimeoutId(timeout);
   };
@@ -47,14 +46,13 @@ function Home() {
     <Container>
       <Header>
         <AppName>
-          <MovieImage src="/react-movie-app/movie-icon.svg" />
+          <MovieImage src="https://yt3.ggpht.com/a/AATXAJxFIokJ2rG9XqonS7o_mWzbYtWlW5Nr3cCVew=s900-c-k-c0xffffffff-no-rj-mo" />
           Movie Mania
         </AppName>
         <SearchBox>
           <SearchIcon src="/react-movie-app/search-icon.svg" />
           <SearchInput
             placeholder="Search Movie"
-            //value={searchQuery}
             onChange={onTextChange}
           />
         </SearchBox>

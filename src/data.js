@@ -1,13 +1,14 @@
 export const data = [
-    { Title: 'Crouching Tiger, Hidden Dragon', Year: '2000', imdbID: 'tt0190332', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BNDdhMzMxOTctNDMyNS00NTZmLTljNWEtNTc4MDBmZTYxY2NmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg' },
-    { Title: 'Tiger King', Year: '2020–2021', imdbID: 'tt11823076', Type: 'series', Poster: 'https://m.media-amazon.com/images/M/MV5BYzI5MjQ2NzEtN2JmOC00MjE2LWI2NjItYTNjNTJjMjBkOWZkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg' },
-    { Title: 'The White Tiger', Year: '2021', imdbID: 'tt6571548', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BMDVkMDRkMzItN2EyYS00ZTI5LTljYzgtNzRmZDQ0OTQ3M2VjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg' },
-    { Title: 'Once There Was a Tiger', Year: '2012', imdbID: 'tt2016894', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BZTEyMTlmYTUtMDE0My00NWJmLWJlZmEtNzhjNGI0Mzk0NTA4XkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_SX300.jpg' },
-    { Title: 'Tiger Lives', Year: '2017', imdbID: 'tt5956100', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BYTZhMmE3NzgtYmM0My00NmYyLWFlZjItZTVhMjUwNmQyNzUxXkEyXkFqcGdeQXVyMTkzOTcxOTg@._V1_SX300.jpg' },
-    { Title: 'Crouching Tiger, Hidden Dragon: Sword of Destiny', Year: '2016', imdbID: 'tt2652118', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BMTA2MzM5NTk4NTBeQTJeQWpwZ15BbWU4MDk0NjgyNDcx._V1_SX300.jpg' },
-    { Title: 'The Tiger and the Snow', Year: '2005', imdbID: 'tt0419198', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BNzQ5YWQ5NjgtMjk5NS00MzU4LWFkMTctMzNhYzFjNmM2ZTBlXkEyXkFqcGdeQXVyMzIzNDU1NTY@._V1_SX300.jpg' },
-    { Title: 'Bill Burr: Paper Tiger', Year: '2019', imdbID: 'tt10847306', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BODQyNTYzNjctMTM5Zi00NmE4LTg5ODAtYTdkNzE3NTdjODFkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg' },
-    { Title: "What's Up, Tiger Lily?", Year: '1966', imdbID: 'tt0061177', Type: 'movie', Poster: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z3ABDEfhLqX09nXgp6ilKW44jAB.jpg' },
-    { Title: 'Sinbad and the Eye of the Tiger', Year: '1977', imdbID: 'tt0076716', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BOTI2MzU4NjM4NV5BMl5BanBnXkFtZTgwNTkwNzYzNTE@._V1_SX300.jpg' }
+
+    { Title: 'Lucifer', Year: '2016–2021', imdbID: 'tt4052886', Type: 'series', Poster: 'https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00YWY3LThjMzQtYzJlNGFkZGRiOWI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg' },
+    { Title: 'Avatar', Year: '2009', imdbID: 'tt0499549', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg' },
+    { Title: 'The Last Days on Mars', Year: '2013', imdbID: 'tt1709143', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BMTk4ODgxMDU0M15BMl5BanBnXkFtZTgwOTg0NzcyMDE@._V1_SX300.jpg' },
+    { Title: 'Loki', Year: '2021–', imdbID: 'tt9140554', Type: 'series', Poster: 'https://m.media-amazon.com/images/M/MV5BYTY0YTgwZjUtYzJiNy00ZDQ2LWFlZmItZThhMjExMjI5YWQ2XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_SX300.jpg' },
+    { Title: 'The Batman', Year: '2022', imdbID: 'tt1877830', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg' },
+    { Title: 'Interstellar', Year: '2014', imdbID: 'tt0816692', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg' },
+    { Title: 'Aquaman', Year: '2018', imdbID: 'tt1477834', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SX300.jpg' },
+    { Title: 'Thor: The Dark World', Year: '2013', imdbID: 'tt1981115', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_SX300.' },
+    { Title: 'The Dark Knight', Year: '2008', imdbID: 'tt0468569', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg' },
+    { Title: 'The Pursuit of Happyness', Year: '2006', imdbID: 'tt0454921', Type: 'movie', Poster: 'https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX300.jpg' }
 ]
 
